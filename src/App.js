@@ -103,6 +103,8 @@ componentDidMount()
     const {recipes, newestRecipe,currentIndex}=this.state;
     return (
       <div className="App container">
+      <h1> FCC React Recipe Box </h1>
+      <h3> Try adding and deleting a recipe. The recipe will remain in local storage, even if you refresh the page!</h3>
 
       {recipes.length > 0 &&(
       <Accordion>
